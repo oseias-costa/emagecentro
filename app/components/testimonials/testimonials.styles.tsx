@@ -38,7 +38,10 @@ export const TestimonialsIcon = styled(Image)`
 `
 
 export const VideoBox = styled.div`
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 80px;    
 `
 
 export const Video = styled(Image)`

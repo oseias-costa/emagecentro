@@ -2,6 +2,7 @@
 import { TestimonialsContainer, TestimonialsIcon, TitleBody, Video, VideoBox } from "./testimonials.styles";
 import Icon from "@/public/testimonials/testimonials.png"
 import VideoImg from "@/public/testimonials/video.png"
+import Button from "../global/Button";
 
 export default function Testimonials(){
     return(
@@ -17,6 +18,7 @@ export default function Testimonials(){
                 <Video src={VideoImg} alt="" />
                 <Video src={VideoImg} alt="" />
             </VideoBox>
+            <Button text="Quero mudar de vida" />
         </TestimonialsContainer>
     )
 }

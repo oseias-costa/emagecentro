@@ -5,7 +5,7 @@ import { GlobalStyle } from './lib/GlobalStyle'
 
 const montserrat = Montserrat({ 
   subsets: ['latin'],
-  weight: ["500", "600", "800", "900"] 
+  weight: ["500", "600", "700", "800", "900"] 
 
 })
 

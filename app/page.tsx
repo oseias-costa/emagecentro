@@ -1,3 +1,4 @@
+import About from './components/about/About'
 import BeforeEAfter from './components/beforeeafter/BeforeEAfter'
 import Benefits from './components/benefits/Benefits'
 import Header from './components/header/Header'
@@ -12,6 +13,7 @@ export default function Home() {
       <Testimonials />
       <BeforeEAfter />
       <Benefits />
+      <About />
     </main>
   )
 }

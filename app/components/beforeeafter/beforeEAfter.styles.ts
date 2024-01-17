@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Button from "../global/Button";
 
 export const BeforeEAfterContainer = styled.section`
-    background-color: #043c8c;
+    background-color: #043c84;
     display: flex;
     flex-direction: column;
     align-items: center;

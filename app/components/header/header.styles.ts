@@ -15,6 +15,9 @@ export const Logo = styled(Image)`
 export const Menu = styled.div`
     display: flex;
     align-items: center;
+    @media(max-width: 800px){
+        display: none;
+    }
 `
 
 export const Nav = styled.nav`

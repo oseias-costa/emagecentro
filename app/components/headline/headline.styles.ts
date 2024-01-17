@@ -5,6 +5,9 @@ export const HeadlineContainer = styled.section`
     display: flex;
     background-color: #01408f;
     justify-content: center;
+    @media(max-width: 800px){
+        flex-wrap: wrap;
+    }
 `
 
 export const Content = styled.div`
@@ -62,7 +65,9 @@ export const ButtonHeadline = styled.a`
 `
 
 export const ImgHeadline = styled(Image)`
-
+    @media(max-width: 800px){
+        width: 100%;
+    }
 `
 
 export const InputBox = styled.div`

@@ -10,43 +10,43 @@ export const benefitsData = [
     {
         id: 1,
         text: "Sem cirúrgia",
-        fontSize: "14px",
+        fontSize: 24,
         icon: Surgery   
     },
     {
         id: 2,
         text: "Sem remédios",
-        fontSize: "14px",
+        fontSize: 24,
         icon: Medicine   
     },
     {
         id: 3,
         text: "Orientação Alimentar",
-        fontSize: "14px",
+        fontSize: 24,
         icon: Orientation   
     },
     {
         id: 4,
         text: "Método Aprovado",
-        fontSize: "14px",
+        fontSize: 24,
         icon: Method
     },
     {
         id: 5,
         text: "Qualidade de vida",
-        fontSize: "14px",
+        fontSize: 24,
         icon: Quality
     },
     {
         id: 5,
         text: "Avaliações e Consultas Semanais",
-        fontSize: "14px",
+        fontSize: 20,
         icon: Scheduling
     },
     {
         id: 6,
         text: "Resultados",
-        fontSize: "14px",
+        fontSize: 24,
         icon: Results
     },
 ]

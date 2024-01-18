@@ -1,5 +1,5 @@
 "use client";
-import { BeforeEAfterContainer, ButtonResults, ImgTitle, ResultsBlock, ResultsNumbers, ResultsNumbersImg, ShapeTop, TitleResult } from "./beforeEAfter.styles";
+import { BeforeEAfterContainer, ButtonResults, ImageResult, ImgTitle, ResultsBlock, ResultsNumbers, ResultsNumbersImg, ShapeTop, TitleResult } from "./beforeEAfter.styles";
 import ShapeTopOne from '@/public/beforeeafter/shape.png'
 import ShapeBottom from '@/public/beforeeafter/shapebottom.png'
 import Title from '@/public/beforeeafter/antesedepois.png'
@@ -10,7 +10,7 @@ export default function BeforeEAfter(){
     const resultsItems = results.map(item => {
         return(
             <ResultsBlock key={item.id} direction={item.direction}>
-                <Image src={item.image} alt="" />
+                <ImageResult src={item.image} alt="" />
                 <ResultsNumbers>
                     <TitleResult fontSize={item.fontSize}>{item.name}</TitleResult>
                     <ResultsNumbersImg src={item.results} alt="" />

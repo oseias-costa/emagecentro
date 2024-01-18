@@ -15,4 +15,10 @@ const Container = styled.a`
     padding-right: 80px;
     padding-top: 12px;
     padding-bottom: 12px;
+    text-align: center;
+
+    @media(max-width: 800px){
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 `

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styled from "styled-components";
-import Button from "../global/Button";
 
 export const BeforeEAfterContainer = styled.section`
     background-color: #043c84;
@@ -19,6 +18,7 @@ export const ImgTitle = styled(Image)`
     right: 189.5px;
     @media(max-width: 800px){
         right: 0px;
+        width: calc(100% - 40px);    
     }
 `
 
@@ -29,14 +29,18 @@ export const ResultsBlock = styled.div<{direction: string}>`
 
     @media(max-width: 800px){
         flex-direction: column-reverse;
-        padding-top: 0px;
         align-items: center;
         padding-top: 40px;
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 `
 
 export const ResultsNumbers = styled.div`
-
+    @media(max-width: 800px){
+        padding-top: 40px;
+    }
 `
 
 export const ResultsNumbersImg = styled(Image)`
@@ -44,7 +48,8 @@ export const ResultsNumbersImg = styled(Image)`
     top: 90px;
     @media(max-width: 800px){
         top: 0px;
-        border-radius: 34px;
+        border-radius: 48px;
+        width: 100%;
     }
 `
 
@@ -57,7 +62,6 @@ export const TitleResult = styled.h3<{fontSize: string}>`
     @media(max-width: 800px){
         top: 0px;
         text-align: center;
-        padding-bottom: 25px;
     }
 `
 
@@ -74,4 +78,19 @@ export const ButtonResults = styled.a`
     padding-right: 80px;
     padding-top: 12px;
     padding-bottom: 12px;
+    text-align: center;
+
+    @media(max-width: 800px){
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+`
+
+export const ImageResult = styled(Image)`
+    @media(max-width: 800px){
+        width: 100%;
+        height: auto;
+    }
 `

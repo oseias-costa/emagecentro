@@ -5,8 +5,10 @@ export const HeadlineContainer = styled.section`
     display: flex;
     background-color: #01408f;
     justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
     @media(max-width: 800px){
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
 `
 
@@ -18,6 +20,9 @@ export const Title = styled.h1`
     color: #6ef2b8;
     font-size: 64px;
     font-weight: 900;
+    @media(max-width: 800px){
+        font-size: 54px;
+    }
 `
 
 export const Description = styled.h3`
@@ -67,6 +72,7 @@ export const ButtonHeadline = styled.a`
 export const ImgHeadline = styled(Image)`
     @media(max-width: 800px){
         width: 100%;
+        height: auto;
     }
 `
 

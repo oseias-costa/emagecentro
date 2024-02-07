@@ -5,6 +5,11 @@ export const GoalContainer = styled.section`
     background-color: #fff;
     padding-top: 80px;
     padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    @media(max-width: 800px){
+        flex-direction: column;
+    }
 `
 
 export const GoalContent = styled.div`
@@ -13,17 +18,21 @@ export const GoalContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: end;
+    text-align: right;
 
     h2 {
         padding-bottom: 20px;
         font-size: 42px;
-        text-align: right;
     }
 
     p {
         padding-bottom: 40px;
         font-size: 22px;
-        text-align: right;
+    }
+    @media(max-width: 800px){
+        width: 100%;
+        align-items: center;
+        text-align: center;
     }
 `
 

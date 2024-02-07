@@ -1,6 +1,6 @@
 "use client";
 import { BenefitsContainer, ButtonHeader, Icon, IconBox, Link, Logo, Menu, Nav, SocialMidia } from "./header.styles";
-import LogoImage from "@/public/header/logo.png"
+import LogoImage from "@/public/assets/logo.png"
 import Instagram from "@/public/header/instagram.svg"
 import Whatsapp from "@/public/header/whatsapp.svg"
 

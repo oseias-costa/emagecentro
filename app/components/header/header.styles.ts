@@ -3,18 +3,31 @@ import { styled } from "styled-components";
 
 export const BenefitsContainer = styled.header`
     display: flex;
-    background-color: #01408f;
     align-items: center;
     justify-content: center;
+    padding: 14px;
+    position: absolute;
+    z-index: 2; 
+
+    @media(max-width: 800px){
+        margin: 0 auto;
+    }
 `
 
 export const Logo = styled(Image)`
-    
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+
+    @media(max-width: 800px){
+        margin-right: 0px;
+    }
 `
 
 export const Menu = styled.div`
     display: flex;
     align-items: center;
+
     @media(max-width: 800px){
         display: none;
     }
@@ -35,18 +48,18 @@ export const Link = styled.a`
 export const ButtonHeader = styled.a`
     text-transform: uppercase;
     font-size: 14px;
-    background-color: #6ef2b8;
+    background-color: #04244d;
     padding: 10px;
     border-radius: 6px;
     cursor: pointer;
     margin-left: 20px;
     margin-right: 20px;
-    color: #04244d;
-    border: 1px solid #6ef2b8;
+    color: #fff;
+    border: 3px solid #04244d;
     transition: 0.2s linear;
+    text-align: center;
 
     &:hover {
-        color: #6ef2b8;
         background-color: transparent;
     }
 `

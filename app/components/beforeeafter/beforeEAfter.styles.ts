@@ -1,12 +1,22 @@
 import Image from "next/image";
 import styled from "styled-components";
-import Button from "../global/Button";
 
 export const BeforeEAfterContainer = styled.section`
-    background-color: #043c84;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    padding-bottom: 100px;
+
+    @media(max-width: 900px){
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+`
+
+export const Img = styled(Image)`
+    background-size: 100%;
+    height: auto;
 `
 
 export const ShapeTop = styled(Image)`
@@ -15,36 +25,39 @@ export const ShapeTop = styled(Image)`
 `
 
 export const ImgTitle = styled(Image)`
+    width: 300px;
+    height: auto;
     position: relative;
-    right: 189.5px;
+    right: 150px;
+    margin-top: 60px;
+    
     @media(max-width: 800px){
         right: 0px;
+        width: 250px;
     }
 `
 
-export const ResultsBlock = styled.div<{direction: string}>`
-    padding-top: 25px;
-    display: flex; 
-    flex-direction: ${props => props.direction};
-
-    @media(max-width: 800px){
-        flex-direction: column-reverse;
-        padding-top: 0px;
-        align-items: center;
-        padding-top: 40px;
-    }
-`
-
-export const ResultsNumbers = styled.div`
-
-`
-
-export const ResultsNumbersImg = styled(Image)`
+export const ImgDesk = styled(Image)`
+    width: 900px;
+    height: auto;
     position: relative;
-    top: 90px;
-    @media(max-width: 800px){
-        top: 0px;
-        border-radius: 34px;
+    margin-top: 40px;
+
+    @media(max-width: 900px){
+        display: none;
+    }
+`
+
+export const ImgMobile = styled(Image)`
+    display: none;
+    position: relative;
+
+    @media(max-width: 900px){
+        width: 100%;
+        position: relative;
+        height: auto;
+        margin-top: 80px;
+        display: block;
     }
 `
 
@@ -74,4 +87,14 @@ export const ButtonResults = styled.a`
     padding-right: 80px;
     padding-top: 12px;
     padding-bottom: 12px;
+`
+
+export const Shape = styled(Image)`
+    width: 100%;
+    display: flex;
+    height: 100px;
+
+    @media(max-width: 800px){
+        height: 40px;
+    }
 `

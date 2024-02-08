@@ -5,19 +5,12 @@ export const HeadlineContainer = styled.section`
     display: flex;
     padding-top: 104.44px;
     justify-content: center;
-<<<<<<< HEAD
     position: relative;
 
     @media(max-width: 800px){
         flex-direction: column-reverse;
         padding-left: 20px;
         padding-right: 20px;
-=======
-    padding-left: 20px;
-    padding-right: 20px;
-    @media(max-width: 800px){
-        flex-wrap: wrap-reverse;
->>>>>>> ce9b714f7a812ca37fb092f656058b4d3a0a0e3b
     }
 `
 
@@ -44,16 +37,11 @@ export const Title = styled.h1`
     color: #fff;
     font-size: 64px;
     font-weight: 900;
-<<<<<<< HEAD
     padding-bottom: 20px;
 
     @media(max-width: 800px){
         text-align: center;
         font-size: 52px;
-=======
-    @media(max-width: 800px){
-        font-size: 54px;
->>>>>>> ce9b714f7a812ca37fb092f656058b4d3a0a0e3b
     }
 `
 

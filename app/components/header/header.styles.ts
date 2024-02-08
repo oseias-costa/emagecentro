@@ -15,17 +15,12 @@ export const BenefitsContainer = styled.header`
 `
 
 export const Logo = styled(Image)`
-<<<<<<< HEAD
     width: 300px;
     height: auto;
     margin-right: 20px;
 
     @media(max-width: 800px){
         margin-right: 0px;
-=======
-    @media(max-width: 800px){
-        width: 100%;
->>>>>>> ce9b714f7a812ca37fb092f656058b4d3a0a0e3b
     }
 `
 

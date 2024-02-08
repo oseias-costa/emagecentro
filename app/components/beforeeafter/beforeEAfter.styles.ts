@@ -88,10 +88,17 @@ export const ButtonResults = styled.a`
     padding-bottom: 12px;
     transition: .2s linear;
     cursor: pointer;
+    text-align: center;
 
     &:hover {
         background-color: #FEFEFE;
         color: #002966;
+    }
+
+    @media(max-width: 800px){
+        font-size: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 `
 

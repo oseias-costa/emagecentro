@@ -5,6 +5,7 @@ import Goal from './components/goal/Goal'
 import Header from './components/header/Header'
 import Headline from './components/headline/Headline'
 import Location from './components/location/Location'
+import Method from './components/method/Method'
 import Testimonials from './components/testimonials/Testimonials'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Headline />
       <Testimonials />
       <BeforeEAfter />
+      <Method />
       <Benefits />
       <About />
       <Goal />

@@ -5,6 +5,8 @@ export const BenefitsContainer = styled.section`
     padding-top: 80px;
     background-color: #fff;
     text-align: center;
+    padding-bottom: 60px;
+
     p {
         color: #043c84;
         font-size: 30px;
@@ -32,11 +34,21 @@ export const BenefitsItem = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 280px;
+    width: 280px;
+    height: 238px;
     padding: 30px;
+
+    @media(max-width: 800px){
+        width: 170px;
+        height: auto;
+    }
+
 `
 
 export const BenefitIcon = styled(Image)`
+    width: 112px;
+    height: auto;
+
     @media(max-width: 800px){
         width: 96px;
     }

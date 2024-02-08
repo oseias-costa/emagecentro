@@ -1,10 +1,21 @@
 "use client";
+import Image from "next/image";
 import { AbountContent, AboutContainer, AboutImg } from "./about.styles";
-import Sheila from "@/public/about/sheila.png"
+import Sheila from "@/public/assets/sheila.png"
+import Background from '@/public/assets/4_-BG.webp'
 
 export default function About(){
     return(
         <AboutContainer>
+            <Image 
+                src={Background}
+                alt="Emagrecentro"
+                fill={true}
+                style={{
+                    backgroundSize: "100%",
+                    objectFit: "cover"
+                }}
+            />
             <AbountContent>
                 <h2>Sobre nós</h2>
                 <p>Uma empresa pioneira no mercado brasileiro que investe em pesquisa,

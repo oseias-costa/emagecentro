@@ -2,15 +2,18 @@
 import { ButtonHeadline, Content, Description, DivTitle, HeadlineContainer, Img, ImgHeadline, InputBox, InputText, TextDestack, Title } from "./headline.styles";
 import Photo from '@/public/assets/headline.png'
 import Background from '@/public/assets/1_-BG.webp'
+import { ImgBackground } from "../about/about.styles";
 
 export default function Headline(){
     return(
         <HeadlineContainer>
-            <Img
+            <ImgBackground
                 src={Background}
-                alt="Leap Engenharia Química"
+                alt="Emagrecentro"
                 fill={true}
-                style={{ objectFit: "cover" }}
+                style={{ 
+                    objectFit: "cover"
+                }}
             />
             <Content>
                 <DivTitle>

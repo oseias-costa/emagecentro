@@ -1,10 +1,10 @@
-import Surgery from '@/public/benefits/surgery.svg'
-import Medicine from '@/public/benefits/medicine.svg'
-import Orientation from '@/public/benefits/orientation.svg'
-import Method from '@/public/benefits/method.svg'
-import Quality from '@/public/benefits/quality.svg'
-import Scheduling from '@/public/benefits/scheduling.svg'
-import Results from '@/public/benefits/results.svg'
+import Surgery from '@/public/assets/cirurgia.png'
+import Medicine from '@/public/assets/remedio.png'
+import Orientation from '@/public/assets/alimentacao.png'
+import Method from '@/public/assets/metodo.png'
+import Quality from '@/public/assets/qualidade.png'
+import Scheduling from '@/public/assets/avaliacoes.png'
+import Results from '@/public/assets/resultados.png'
 
 export const benefitsData = [
     {

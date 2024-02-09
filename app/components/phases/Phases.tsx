@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image"
 import styled from "styled-components"
 import Detox from '@/public/assets/detox.png'
@@ -36,9 +37,28 @@ export default function Phases(){
 }
 
 const Container = styled.section`
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
 
+    h2 {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .items {
+        display: flex;
+        justify-content: center;
+    }
 `
 
 const Item = styled.div`
+    width: 200px;
+    margin: 20px;
+    text-align: center;
 
+    img {
+        width: 150px;
+        height: auto;
+    }
 `

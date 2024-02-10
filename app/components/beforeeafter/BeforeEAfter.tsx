@@ -11,7 +11,9 @@ import ShapeBottom from '@/public/assets/shape-after-and-before-bottom.jpg'
 import NilceiaMobile from '@/public/assets/nilceia-mobile.png'
 import Background from "@/public/assets/backgroun3.jpg";
 
+export const message = "Olá vim do site da Emagrecentro e gostaria mais informações."
 export default function BeforeEAfter(){
+
     return(
         <>
         <Shape 
@@ -31,7 +33,10 @@ export default function BeforeEAfter(){
             <ImgMobile src={GiseleMobile} alt="Emagrecentro Resultado Nilceia" />
             <ImgMobile src={MarcioMobile} alt="Emagrecentro Resultado Marcio" />
             <ImgMobile src={NilceiaMobile} alt="Emagrecentro Resultado Gisele" />
-            <ButtonResults>Quero ter esses resultados</ButtonResults>
+            <ButtonResults 
+                target="_blank"  
+                href={`https://api.whatsapp.com/send?phone=554891908925&text=${message}`}
+            >Quero ter esses resultados</ButtonResults>
         </BeforeEAfterContainer>
             <Shape 
                 src={ShapeBottom} 

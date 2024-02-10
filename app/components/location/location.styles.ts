@@ -68,6 +68,12 @@ export const ButtonLocation = styled.a`
     padding-right: 80px;
     padding-top: 12px;
     padding-bottom: 12px;
+    transition: .2s linear;
+
+        &:hover {
+        background-color: #FEFEFE;
+        color: #002966;
+    }
 
     @media(max-width: 800px){
         font-size: 24px;

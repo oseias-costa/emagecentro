@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export default function Button({text}:{text: string}){
-    return <Container>{text}</Container>
+    const message = "Olá vim do site da Emagrecentro e gostaria mais informações."
+    return <Container target="_blank"  href={`https://api.whatsapp.com/send?phone=554891908925&text=${message}`} >{text}</Container>
 }
 
 const Container = styled.a`

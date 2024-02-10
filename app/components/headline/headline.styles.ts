@@ -3,13 +3,16 @@ import { styled } from "styled-components";
 
 export const HeadlineContainer = styled.section`
     display: flex;
-    padding-top: 104.44px;
+    padding-top: 144.44px;
     justify-content: center;
+    position: relative;
+    padding-bottom: 40px;
 
     @media(max-width: 800px){
         flex-direction: column-reverse;
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 0px;
     }
 `
 
@@ -34,7 +37,7 @@ export const DivTitle = styled.div`
 
 export const Title = styled.h1`
     color: #fff;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 900;
     padding-bottom: 20px;
 
@@ -47,7 +50,7 @@ export const Title = styled.h1`
 export const Description = styled.h3`
     color: #fff;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
 
     @media(max-width: 800px){
         text-align: center;
@@ -100,7 +103,7 @@ export const ButtonHeadline = styled.a`
 `
 
 export const ImgHeadline = styled(Image)`
-    width: 500px;
+    width: 450px;
     height: auto;
     position: relative;
 

@@ -6,7 +6,7 @@ import Background from '@/public/assets/4_-BG.webp'
 
 export default function About(){
     return(
-        <AboutContainer>
+        <AboutContainer id="sobre-nos">
             <Image 
                 src={Background}
                 alt="Emagrecentro"

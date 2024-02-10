@@ -8,19 +8,18 @@ export const BenefitsContainer = styled.header`
     padding: 14px;
     position: absolute;
     z-index: 2; 
-
-    @media(max-width: 800px){
-        margin: 0 auto;
-    }
+    left: 0;
+    right: 0;
 `
 
 export const Logo = styled(Image)`
-    width: 300px;
+    width: 250px;
     height: auto;
     margin-right: 20px;
 
     @media(max-width: 800px){
         margin-right: 0px;
+        margin-top: 15px;
     }
 `
 

@@ -60,6 +60,7 @@ const Container = styled.section`
     @media(max-width: 800px){
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 40px;
 
         h2{
             font-size: 32px;

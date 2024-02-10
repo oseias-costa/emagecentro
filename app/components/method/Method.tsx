@@ -1,12 +1,16 @@
 "use client";
 import styled from "styled-components"
+import { message } from "../beforeeafter/BeforeEAfter";
 
 export default function Method(){
     return(
         <Container>
             <h2>Conheça o Método 4 fases Emagrecentro e elimine até 10% do seu peso em 5 semanas</h2>
-            <iframe src="https://www.youtube.com/embed/D9jv_B6iAKQ?si=dPtVirJO6YChxmvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <ButtonResults>Quero Eliminar peso em 5 semanas</ButtonResults>
+            <iframe src="https://www.youtube.com/embed/D9jv_B6iAKQ?si=dPtVirJO6YChxmvk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <ButtonResults  
+                target="_blank"  
+                href={`https://api.whatsapp.com/send?phone=554891908925&text=${message}`}
+            >Quero Eliminar peso em 5 semanas</ButtonResults>
         </Container>
     )
 }

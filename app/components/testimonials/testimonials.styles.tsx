@@ -7,7 +7,7 @@ export const TestimonialsContainer = styled.section`
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 `
 
 export const TitleBody = styled.div`
@@ -41,9 +41,29 @@ export const VideoBox = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 80px;    
+    padding-bottom: 30px;  
+    width: 900px;
+
+    @media(max-width: 800px){
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }  
 `
 
-export const Video = styled(Image)`
-    
-`
+export const Video = styled.video`
+  margin: 10px;
+  position: relative;
+  z-index: 2;
+  width: auto;
+  height: 500px;
+  border-radius: 6px;
+  position: relative;
+  top: 5px;
+
+  @media(max-width: 800px){
+    width: 320px;
+    height: 580px;
+  }
+`;

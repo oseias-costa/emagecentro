@@ -15,7 +15,7 @@ export const AboutContainer = styled.section`
     @media(max-width: 800px){
         flex-wrap: wrap-reverse;
         padding-top: 40px;
-        padding-bottom: 40px; 
+        padding-bottom: 80px; 
     }
 `
 
@@ -52,5 +52,4 @@ export const AbountContent = styled.div`
 
 export const ImgBackground = styled(Image)`
   background-size: 100%;
-  height: auto;
 `;

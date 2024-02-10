@@ -12,7 +12,7 @@ export default function Benefits(){
     })
 
     return(
-        <BenefitsContainer>
+        <BenefitsContainer id="inovacao">
             <BenefitsTitle>Inovação</BenefitsTitle>
             <p>Aqui você perde peso de forma natural e saudável!</p>
             <BenefitsBlock>{benefits}</BenefitsBlock>

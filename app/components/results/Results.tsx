@@ -7,7 +7,7 @@ import Button from "../global/Button";
 
 export default function Results(){
     return(
-        <Container>
+        <Container id="resultados">
             <Img 
                 src={Background}
                 alt="Emagrecentro"
@@ -33,11 +33,15 @@ export default function Results(){
 }
 
 const Container = styled.section`
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 80px;
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
+
+    @media(max-width: 800px){
+        padding-bottom: 120px;
+    }
 `
 
 const Img = styled(Image)`
@@ -61,6 +65,7 @@ export const GoalContainer = styled.section`
     display: flex;
     position: relative;
     justify-content: center;
+    align-items: center;
 
     @media(max-width: 800px){
         flex-direction: column;
@@ -90,6 +95,10 @@ export const GoalContent = styled.div`
         width: 100%;
         align-items: center;
         text-align: center;
+
+        p {
+            padding-bottom: 10px;
+        }
     }
 `
 

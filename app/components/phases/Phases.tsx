@@ -51,6 +51,19 @@ const Container = styled.section`
     .items {
         display: flex;
         justify-content: center;
+
+        @media(max-width: 800px){
+            flex-wrap: wrap;
+        }
+    }
+
+    @media(max-width: 800px){
+        padding-left: 20px;
+        padding-right: 20px;
+
+        h2{
+            font-size: 32px;
+        }
     }
 `
 
@@ -74,5 +87,13 @@ const Item = styled.div`
     img {
         width: 180px;
         height: auto;
+    }
+
+    @media(max-width: 800px) {
+        padding-bottom: 25px;
+
+        h3 {
+            height: auto;
+        }
     }
 `

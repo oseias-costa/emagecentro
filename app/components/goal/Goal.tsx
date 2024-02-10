@@ -1,18 +1,24 @@
 "use client";
-
 import Image from "next/image";
 import Button from "../global/Button";
-import { Empty, GoalContainer, GoalContent, Img } from "./goalStyles";
+import { GoalContainer, GoalContent } from "./goalStyles";
 import Background from '@/public/assets/5_-BG.webp'
 import GoalPhoto from '@/public/assets/goal.png'
-import { ImgBackground } from "../about/about.styles";
 
 export default function Goal(){
     return(
-        <>
-        
-        <GoalContainer>
-        <Img src={Background} fill={true} alt="Resultados Emagrecentro" />
+       <GoalContainer>
+            <Image 
+                src={Background}
+                alt="Emagrecentro"
+                fill={true}
+                style={{
+                    backgroundSize: "100%",
+                    objectFit: "cover"
+                }}
+            />
+            <div>
+
             <Image 
                 src={GoalPhoto}  
                 alt="Emagrecentro - Alcance seus " 
@@ -20,7 +26,7 @@ export default function Goal(){
                     width: 400,
                     height: "auto"
                 }}
-            />
+                />
             <GoalContent>
                 <h2>Alcance seu Resultados</h2>
                 <p><strong>Perca de 5% a 10% do seu peso já nas primeiras semanas</strong>
@@ -30,7 +36,7 @@ export default function Goal(){
                 </p>
                 <Button text="Agendar avaliação gratuita" />
             </GoalContent>
+                </div>
         </GoalContainer>
-        </>
     )
 }

@@ -7,6 +7,7 @@ import Headline from './components/headline/Headline'
 import Location from './components/location/Location'
 import Method from './components/method/Method'
 import Phases from './components/phases/Phases'
+import Results from './components/results/Results'
 import Testimonials from './components/testimonials/Testimonials'
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
       <Benefits />
       <About />
       <Phases />
-      <Goal />
+      <Results />
       <Location />
     </main>
   )

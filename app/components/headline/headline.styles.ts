@@ -5,7 +5,6 @@ export const HeadlineContainer = styled.section`
     display: flex;
     padding-top: 104.44px;
     justify-content: center;
-    position: relative;
 
     @media(max-width: 800px){
         flex-direction: column-reverse;

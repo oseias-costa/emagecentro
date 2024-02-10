@@ -44,6 +44,8 @@ const Container = styled.section`
     h2 {
         text-align: center;
         padding-bottom: 40px;
+        color: #002966;
+        font-size: 42px;
     }
 
     .items {
@@ -57,8 +59,20 @@ const Item = styled.div`
     margin: 20px;
     text-align: center;
 
+    h3 {
+        color: #002966;
+        padding-bottom: 20px;
+        padding-top: 30px;
+        font-size: 24px;
+        height: 108px;
+    }
+
+    p {
+        color: #002966;
+    }
+
     img {
-        width: 150px;
+        width: 180px;
         height: auto;
     }
 `

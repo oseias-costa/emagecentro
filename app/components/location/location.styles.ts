@@ -12,8 +12,8 @@ export const LocationContainer = styled.section`
     padding-right: 20px;
 
     p {
-        color: #04244d;
-        background-color: #72faba;
+        color: #fff;
+        background-color: #04244d;
         font-size: 20px;
         margin-top: 40px;
         padding-left: 10px;
@@ -58,11 +58,11 @@ export const TitleLocation = styled.div`
 
 export const ButtonLocation = styled.a`
     text-align: center;
-    background-color: #72faba;
+    background-color: #04244d;
     font-size: 28px;
-    color: #04244d;
+    color: #fff;
     font-weight: 700;
-    border-bottom: 4px solid #4ab888;
+    border-bottom: 4px solid #0048A6;
     border-radius: 70px;
     padding-left: 80px;
     padding-right: 80px;

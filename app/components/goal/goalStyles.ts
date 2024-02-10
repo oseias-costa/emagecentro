@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 export const GoalContainer = styled.section`
@@ -7,6 +8,7 @@ export const GoalContainer = styled.section`
     padding-bottom: 80px;
     padding-left: 20px;
     padding-right: 20px;
+
     @media(max-width: 800px){
         flex-direction: column;
     }
@@ -19,6 +21,7 @@ export const GoalContent = styled.div`
     flex-direction: column;
     align-items: end;
     text-align: right;
+    position: relative;
 
     h2 {
         padding-bottom: 20px;
@@ -39,3 +42,7 @@ export const GoalContent = styled.div`
 export const Empty = styled.div`
     width: 400px;
 `
+
+export const Img = styled(Image)`
+  background-repeat: round;
+`;

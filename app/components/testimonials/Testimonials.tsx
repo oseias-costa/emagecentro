@@ -14,13 +14,13 @@ export default function Testimonials(){
             <VideoBox>
             <Video
                 controls
-                src="https://emagrecentrotubarao.com.br/assets/1.mp4"
+                src="https://emagecentro.vercel.app/assets/1.mp4"
             ></Video>
                 <Video 
                     controls
-                    src="https://emagrecentrotubarao.com.br/assets/2.mp4" />
-                <Video controls src="https://emagrecentrotubarao.com.br/assets/3.mp4" />
-                <Video controls src="https://emagrecentrotubarao.com.br/assets/4.mp4" />
+                    src="https://emagecentro.vercel.app/assets/2.mp4" />
+                <Video controls src="https://emagecentro.vercel.app/assets/3.mp4" />
+                <Video controls src="https://emagecentro.vercel.app/assets/4.mp4" />
             </VideoBox>
             <Button text="Quero mudar de vida" />
         </TestimonialsContainer>

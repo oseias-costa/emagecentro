@@ -80,7 +80,7 @@ export const InputText = styled.input`
     font-size: 16px;
 `
 
-export const ButtonHeadline = styled.a`
+export const ButtonHeadline = styled.button`
     background-color:  #04244d;
     width: 300px;
     display: block;
@@ -114,11 +114,18 @@ export const ImgHeadline = styled(Image)`
 `
 
 export const InputBox = styled.div`
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
     // margin-bottom: 40px;
+
 `
 
 export const Img = styled(Image)`
   background-size: 100%;
   height: auto;
 `;
+
+export const Error = styled.p`
+    height: 30px;
+    color: red;
+    font-weight: 600;
+`

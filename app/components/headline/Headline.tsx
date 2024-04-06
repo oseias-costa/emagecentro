@@ -90,12 +90,14 @@ export default function Headline(){
                         placeholder="Seu primeiro nome" /><br />
 
                     <InputText 
+                        type="number"
                         onChange={(e) => {
                             setError({type:"", message: ""})
                             setState({...state, wpp: Number(e.target.value)})
                         }} 
                         placeholder="Seu whatsapp" /><br />
                     <InputText 
+                        type="number"
                         onChange={(e) => {
                             setError({type:"", message: ""})
                             setState({...state, kg: Number(e.target.value)})

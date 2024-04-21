@@ -54,7 +54,7 @@ export default function Headline(){
                 message: "O número de telefone não é válido"
             })
         }
-        if(state.kg < 30){
+        if(!state.kg){
             return setError({
                 type: "weight",
                 message: "O peso é inválido"
